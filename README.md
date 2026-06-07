@@ -106,7 +106,7 @@ class ApiKeys {
 
 Required APIs:
 
-* Google Maps SDK
+* Google Maps SDK for Android
 * Google Places API
 * Google Geocoding API
 * Gemini API
