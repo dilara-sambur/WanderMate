@@ -2,22 +2,22 @@
 
 An AI-powered location-based travel assistant developed with Flutter.
 
-WanderMate helps users discover nearby places using Google Maps, Google Places API, weather-aware recommendations, crowd density reporting, and Gemini AI-powered travel assistance. The application combines location-based services and artificial intelligence to provide a personalized travel and exploration experience.
+WanderMate helps users discover nearby places using Google Maps, Google Places API, crowd density reporting, weather-aware suggestions, and Gemini AI-powered travel recommendations. The application combines location-based services and artificial intelligence to provide a personalized travel and exploration experience.
 
 ---
 
 ## ✨ Features
 
-* 🗺️ Google Maps Integration
-* 📍 Google Places API Integration
-* 🤖 Gemini AI Travel Assistant
-* 🔍 Smart Query Analysis
-* 👥 Crowd Density Reporting
-* 🌤️ Weather-Based Recommendations
-* 🎯 Personalized User Preferences
-* 🏛️ Historical Places Discovery
-* 🍽️ Local Food Recommendations
-* 📸 Photography Spot Suggestions
+* 🗺️ Real-time location-based place discovery
+* 📍 Google Maps and Google Places API integration
+* 🤖 Gemini AI travel assistant
+* 🔍 Smart search and query analysis
+* 👥 Crowd density reporting system
+* 🌤️ Weather-aware recommendations
+* 🎯 Personalized onboarding and travel preferences
+* 🏛️ Historical places and local attractions discovery
+* 🍽️ Local food recommendations
+* 📸 Photography spot suggestions
 
 ---
 
@@ -55,39 +55,20 @@ WanderMate helps users discover nearby places using Google Maps, Google Places A
 
 ## 🛠️ Technologies
 
-### Mobile Development
-
 * Flutter 3.41.6
 * Dart 3.11.4
-
-### APIs & Services
-
 * Google Maps API
 * Google Places API
 * Gemini API
-
-### State Management
-
 * Riverpod
-* Provider
-
-### Storage
-
 * SharedPreferences
 * SQLite (sqflite)
-
-### Additional Packages
-
 * Geolocator
 * Geocoding
-* Go Router
-* Cached Network Image
-* Flutter Animate
-* Flutter SVG
 
 ---
 
-## 🏗️ Project Architecture
+## 🏗️ Project Structure
 
 ```text
 lib/
@@ -113,7 +94,7 @@ Open:
 lib/core/api_keys.dart
 ```
 
-Replace the placeholder values with your own:
+Replace the placeholder values with your own API keys:
 
 ```dart
 class ApiKeys {
@@ -156,4 +137,3 @@ The application was analyzed using Mobile Security Framework (MobSF) to identify
 
 Management Information Systems
 Bilecik Şeyh Edebali University
-
